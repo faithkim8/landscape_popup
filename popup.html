@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Popups</title>
+  <style>
+    body {
+      width: 220px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    
+    h3 {
+      color: #cc0000;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    
+    .description {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #cc0000;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    
+    button:hover {
+      background-color: #990000;
+    }
+    
+    #status {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 12px;
+      min-height: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h3>YouTube Livestream Popups</h3>
+  
+  <div class="description">
+    Click the button below to show multiple YouTube livestreams on the current page.
+  </div>
+  
+  <button id="show-popups">Show Livestreams</button>
+  <div id="status"></div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
